@@ -1,7 +1,7 @@
 # UART bit-bang
 
 A simple application written for PIC 12F629 microcontroller, demonstrating how to implement a software UART 
-solution for asynchronous communication.
+solution for asynchronous serial communication.
 
 ## Schematic
 
@@ -11,5 +11,4 @@ solution for asynchronous communication.
 - GP4: RX Line
 - GP5: TX Line
 
-In this demo, we have only a transmission with a speed of 300 bps. To send the data press the button on pin GP5.
-
+In this demo, we have a 8N1 transmission at 300 bps. To send data, press the button on pin GP5.
